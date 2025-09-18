@@ -5,9 +5,17 @@
     <title>Product Catalog</title>
 </head>
 <body>
+<h1>Enter Product</h1>
+<form th:action="@{/addProduct}" th:object = "${product}" method = "post">
+    Code: <input type="text" th:field = "*{code}"><br>
+    Brand: <input type="text" th:field = "*{brand}"><br>
+    Quantity: <input type="number" th:field = "*{quantity}"><br>
+    Price: <input type="number" th:field = "*{unitPrice}"><br>
+    <button type="submit">Submit</button>
+</form>
 <header>
     <h1>Product Catalog by Zohaib Siddiqui</h1>
 </header>
-
+<div th:replace="fragments/footer :: footer"></div>
 </body>
 </html>

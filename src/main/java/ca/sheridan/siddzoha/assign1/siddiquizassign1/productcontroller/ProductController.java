@@ -13,11 +13,11 @@ public class ProductController {
 
     @GetMapping({"/", "index"})
     public String index(Model model) {
-        model.addAttribute("products", new Product());
+        model.addAttribute("product", new Product());
         return "index";
     }
 
-    @PostMapping("/AddProduct")
+    @PostMapping("/addProduct")
     public String addProduct(@ModelAttribute Product product, Model model) {
         products.add(product);
         model.addAttribute("product", product);
