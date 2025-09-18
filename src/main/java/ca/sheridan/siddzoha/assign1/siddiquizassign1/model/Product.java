@@ -2,6 +2,7 @@ package ca.sheridan.siddzoha.assign1.siddiquizassign1.model;
 /*
 Zohaib Siddiqui
 Student ID: 991578873
+Completed: 18 Sept, 2025
  */
 public class Product {
     private String code;
