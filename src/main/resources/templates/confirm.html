@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Product Catalog</title></head>
 <body>
+<h2>Product Added</h2>
+<p>Code: <span> th:text="${product.code}</span></p>
+<p>Brand: <span> th:text="${product.brand}</span></p>
+<p>Quantity: <span> th:text="${product.quantity}</span></p>
+<p>Unit Price: <span> th:text="${product.unitPrice}</span></p>
 
+<a th:href="@{/products}">View All Products</a>
+
+<div th:replace="fragments/footer :: footer"></div>
 </body>
 </html>
