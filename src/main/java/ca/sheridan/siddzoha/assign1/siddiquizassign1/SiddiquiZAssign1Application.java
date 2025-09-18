@@ -1,5 +1,5 @@
 package ca.sheridan.siddzoha.assign1.siddiquizassign1;
-
+import ca.sheridan.siddzoha.assign1.siddiquizassign1.controllers.ProductController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

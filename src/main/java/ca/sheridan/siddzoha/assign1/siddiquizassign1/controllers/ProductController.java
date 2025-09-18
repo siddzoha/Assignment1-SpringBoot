@@ -1,4 +1,4 @@
-package ca.sheridan.siddzoha.assign1.siddiquizassign1.productcontroller;
+package ca.sheridan.siddzoha.assign1.siddiquizassign1.controllers;
 import ca.sheridan.siddzoha.assign1.siddiquizassign1.model.Product;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
