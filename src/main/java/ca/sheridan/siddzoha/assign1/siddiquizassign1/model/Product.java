@@ -1,5 +1,8 @@
 package ca.sheridan.siddzoha.assign1.siddiquizassign1.model;
-
+/*
+Zohaib Siddiqui
+Student ID: 991578873
+ */
 public class Product {
     private String code;
     private String brand;
