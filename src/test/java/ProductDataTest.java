@@ -3,7 +3,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
+/**
+ * @author Zohaib Siddiqui
+ * @version Oct 10, 2026
+ * Student ID: 991578873
+ */
 public class ProductDataTest {
 
     @Test
