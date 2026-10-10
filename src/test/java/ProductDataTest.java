@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * @author Zohaib Siddiqui
+ * @author Zain Malik
  * @version Oct 10, 2026
  * Student ID: 991578873
  */
