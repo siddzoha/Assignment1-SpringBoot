@@ -1,0 +1,9 @@
+Test ID,Layer,Target Class / Method,Test Category,Input SKU (Code),Input Brand,Input Quantity,Input Unit Price ($),Expected Outcome,Actual Status,Lifecycle / Cleanup Strategy
+TC-DAT-01,Data Layer,Product(code, brand, qty, price),Constructor & Getter State Initialization,SKU1001,Apple,5,999.90,Object holds correct initial state,PASS,Stateless in-memory object (Garbage collected)
+TC-DAT-02,Data Layer,Product.setters,Entity Mutation & Property Encapsulation,SKU1002,Samsung,7,599.89,All field values updated accurately,PASS,Stateless in-memory object (Garbage collected)
+TC-BIZ-01,Business Logic,ProductController.index(),Form Backing Model Initialization,N/A,N/A,N/A,N/A,"Returns 'index', attaches empty Product to Model",PASS,Isolated ConcurrentModel per test method
+TC-BIZ-02,Business Logic,ProductController.addProduct(),Business State Storage & Routing,SKU45645,Nintendo,2,349.99,"Appends to internal catalog, attaches product, returns 'confirm'",PASS,@BeforeEach instantiates fresh controller
+TC-BIZ-03,Business Logic,ProductController.viewProducts(),Catalog Query & Model Binding,"SKU6786, SKU2342","LG, Dell","9, 67","1944.99, 949.99","Returns 'products', attaches 2-item list to Model",PASS,@BeforeEach instantiates fresh controller
+TC-PRS-01,Presentation,ProductViewTest.testIndexRendersCorrectly(),HTTP GET View Resolution (index.html),N/A,N/A,N/A,N/A,HTTP 200 OK + View name 'index' resolved,PASS,Spring MockMvc mock servlet context
+TC-PRS-02,Presentation,ProductViewTest.testAddProductAndFormSubmission(),HTTP POST Form Submission (confirm.html),SKU4363,HP,41,589.99,HTTP 200 OK + View name 'confirm' resolved,PASS,Spring MockMvc isolated request dispatch
+TC-APP-01,Application,SiddiquiZAssign1ApplicationTests.contextLoads(),Spring Boot Context Bootstrapping,N/A,N/A,N/A,N/A,Spring Boot 3.5.5 context starts with 0 errors,PASS,Spring Test Context Cache teardown on complete

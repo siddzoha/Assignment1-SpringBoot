@@ -1,0 +1,60 @@
+================================================================================
+SYST 37833 - SOFTWARE QUALITY ASSURANCE
+DELIVERABLE 1: AUTOMATED TEST EXECUTION REPORT
+================================================================================
+Project Name      : Assignment1-SpringBoot (siddiquiZ-Assign1)
+Authors           : Zohaib Siddiqui (ID: 991578873), Zain Malik
+Execution Tool    : Apache Maven Surefire Plugin 3.5.3 (JUnit Platform)
+Runtime Platform  : Java 21 / Spring Boot 3.5.5
+Status            : BUILD SUCCESS (All 8 Tests Passed, 0 Failures, 0 Errors)
+================================================================================
+
+1. TEST EXECUTION SUMMARY BY LAYER
+--------------------------------------------------------------------------------
+Layer 1: Presentation Layer (Web MVC / View Resolution)
+  - Test File     : ProductViewTest.java
+  - Framework     : Spring WebMvcTest (@WebMvcTest, MockMvc)
+  - Tests Run     : 2
+  - Failures      : 0
+  - Errors        : 0
+  - Execution Time: 0.335 s
+  - Methods       :
+    * testIndexRendersCorrectly()                [PASSED] (HTTP 200, View: "index")
+    * testAddProductAndFormSubmission()          [PASSED] (HTTP 200, View: "confirm")
+
+Layer 2: Business Logic Layer (Controller & Service Logic)
+  - Test File     : ProductBusinessLogicTest.java
+  - Framework     : JUnit 5 (Jupiter) with Spring UI ConcurrentModel
+  - Tests Run     : 3
+  - Failures      : 0
+  - Errors        : 0
+  - Execution Time: 0.023 s
+  - Methods       :
+    * testIndexPreparesEmptyFormModel()          [PASSED]
+    * testAddProductStoresProductsAndRoutesToConfirmation() [PASSED]
+    * testViewProductAttachesCatalogToModel()    [PASSED]
+
+Layer 3: Data Layer (Entity State & Mutation)
+  - Test File     : ProductDataTest.java
+  - Framework     : JUnit 5 (Jupiter) Assertions
+  - Tests Run     : 2
+  - Failures      : 0
+  - Errors        : 0
+  - Execution Time: 0.001 s
+  - Methods       :
+    * testProductConstructorsGettersAndSetters() [PASSED]
+    * testSettersUpdateProductState()            [PASSED]
+
+Base Application Context Verification
+  - Test File     : SiddiquiZAssign1ApplicationTests.java
+  - Tests Run     : 1
+  - Failures      : 0
+  - Errors        : 0
+  - Execution Time: 1.112 s
+  - Methods       :
+    * contextLoads()                             [PASSED]
+
+--------------------------------------------------------------------------------
+OVERALL RESULTS:
+Tests Run: 8 | Failures: 0 | Errors: 0 | Skipped: 0 | Total Execution Time: 2.970 s
+================================================================================

@@ -1,0 +1,97 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/Users/zohaibsiddiqui/.m2/wrapper/dists/apache-maven-3.9.11/a2d47e15/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< ca.sheridan.siddzoha.assign1:siddiquiZ-Assign1 >-----------
+[INFO] Building siddiquiZ-Assign1 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ siddiquiZ-Assign1 ---
+[INFO] Deleting /Users/zohaibsiddiqui/Documents/Sheridan/Fall 2026/Software QA/Project/Assignment1-SpringBoot/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ siddiquiZ-Assign1 ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 4 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ siddiquiZ-Assign1 ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 3 source files with javac [debug parameters release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ siddiquiZ-Assign1 ---
+[INFO] skip non existing resourceDirectory /Users/zohaibsiddiqui/Documents/Sheridan/Fall 2026/Software QA/Project/Assignment1-SpringBoot/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ siddiquiZ-Assign1 ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 4 source files with javac [debug parameters release 21] to target/test-classes
+[INFO] /Users/zohaibsiddiqui/Documents/Sheridan/Fall 2026/Software QA/Project/Assignment1-SpringBoot/src/test/java/ProductBusinessLogicTest.java: /Users/zohaibsiddiqui/Documents/Sheridan/Fall 2026/Software QA/Project/Assignment1-SpringBoot/src/test/java/ProductBusinessLogicTest.java uses unchecked or unsafe operations.
+[INFO] /Users/zohaibsiddiqui/Documents/Sheridan/Fall 2026/Software QA/Project/Assignment1-SpringBoot/src/test/java/ProductBusinessLogicTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ siddiquiZ-Assign1 ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ProductBusinessLogicTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in ProductBusinessLogicTest
+[INFO] Running ca.sheridan.siddzoha.assign1.siddiquizassign1.SiddiquiZAssign1ApplicationTests
+17:43:32.577 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [ca.sheridan.siddzoha.assign1.siddiquizassign1.SiddiquiZAssign1ApplicationTests]: SiddiquiZAssign1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:43:32.625 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration ca.sheridan.siddzoha.assign1.siddiquizassign1.SiddiquiZAssign1Application for test class ca.sheridan.siddzoha.assign1.siddiquizassign1.SiddiquiZAssign1ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.5)
+
+2026-10-13T17:43:32.784-04:00  INFO 43388 --- [siddiquiZ-Assign1] [           main] s.s.a.s.SiddiquiZAssign1ApplicationTests : Starting SiddiquiZAssign1ApplicationTests using Java 25.0.4.1 with PID 43388 (started by zohaibsiddiqui in /Users/zohaibsiddiqui/Documents/Sheridan/Fall 2026/Software QA/Project/Assignment1-SpringBoot)
+2026-10-13T17:43:32.785-04:00  INFO 43388 --- [siddiquiZ-Assign1] [           main] s.s.a.s.SiddiquiZAssign1ApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2026-10-13T17:43:33.120-04:00  INFO 43388 --- [siddiquiZ-Assign1] [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2026-10-13T17:43:33.260-04:00  INFO 43388 --- [siddiquiZ-Assign1] [           main] s.s.a.s.SiddiquiZAssign1ApplicationTests : Started SiddiquiZAssign1ApplicationTests in 0.58 seconds (process running for 1.013)
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+WARNING: A Java agent has been loaded dynamically (/Users/zohaibsiddiqui/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.7/byte-buddy-agent-1.17.7.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.112 s -- in ca.sheridan.siddzoha.assign1.siddiquizassign1.SiddiquiZAssign1ApplicationTests
+[INFO] Running ProductDataTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in ProductDataTest
+[INFO] Running ProductViewTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.5)
+
+2026-10-13T17:43:33.660-04:00  INFO 43388 --- [siddiquiZ-Assign1] [           main] ProductViewTest                          : Starting ProductViewTest using Java 25.0.4.1 with PID 43388 (started by zohaibsiddiqui in /Users/zohaibsiddiqui/Documents/Sheridan/Fall 2026/Software QA/Project/Assignment1-SpringBoot)
+2026-10-13T17:43:33.660-04:00  INFO 43388 --- [siddiquiZ-Assign1] [           main] ProductViewTest                          : No active profile set, falling back to 1 default profile: "default"
+2026-10-13T17:43:33.723-04:00  INFO 43388 --- [siddiquiZ-Assign1] [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2026-10-13T17:43:33.751-04:00  INFO 43388 --- [siddiquiZ-Assign1] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-10-13T17:43:33.751-04:00  INFO 43388 --- [siddiquiZ-Assign1] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-10-13T17:43:33.752-04:00  INFO 43388 --- [siddiquiZ-Assign1] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2026-10-13T17:43:33.769-04:00  INFO 43388 --- [siddiquiZ-Assign1] [           main] ProductViewTest                          : Started ProductViewTest in 0.12 seconds (process running for 1.522)
+2026-10-13T17:43:33.938-04:00  WARN 43388 --- [siddiquiZ-Assign1] [           main] actStandardFragmentInsertionTagProcessor : [THYMELEAF][main][index] Deprecated unwrapped fragment expression "fragments/footer :: footer" found in template index, line 19, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2026-10-13T17:43:33.964-04:00  WARN 43388 --- [siddiquiZ-Assign1] [           main] actStandardFragmentInsertionTagProcessor : [THYMELEAF][main][confirm] Deprecated unwrapped fragment expression "fragments/footer :: footer" found in template confirm, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.335 s -- in ProductViewTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.970 s
+[INFO] Finished at: 2026-10-13T17:43:33-04:00
+[INFO] ------------------------------------------------------------------------

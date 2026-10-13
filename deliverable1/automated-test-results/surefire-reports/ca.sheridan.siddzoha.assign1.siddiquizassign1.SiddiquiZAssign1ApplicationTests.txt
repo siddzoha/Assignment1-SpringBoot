@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ca.sheridan.siddzoha.assign1.siddiquizassign1.SiddiquiZAssign1ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.112 s -- in ca.sheridan.siddzoha.assign1.siddiquizassign1.SiddiquiZAssign1ApplicationTests
